@@ -9,6 +9,7 @@
 检查当前项目目录下是否已存在 `docs/` 目录及相关文档文件：
 - `docs/prd.md` — 产品需求文档
 - `docs/design-system.md` — 设计规范文档
+- `docs/design-system-preview.html` — 设计规范预览页
 - `docs/prototype/` — 设计原型（HTML/CSS/SVG）
 - `docs/product-design.md` — 产品功能设计文档
 - `docs/tech-design.md` — 技术设计文档
