@@ -37,7 +37,7 @@ mop-start → mop-req → mop-prod → mop-ui → mop-tech → mop-tasks → mop
 | `/mop-start` | 项目初始化，创建 `docs/` 目录，展示工作流概览和项目状态 |
 | `/mop-req` | 交互式需求收集，通过多轮对话输出 PRD（`docs/prd.md`）。根据产品定位自动切换商业模式/构建者模式调整提问深度。可选阶段：竞品分析（web search）、头脑风暴、前提挑战、双视角需求评审 |
 | `/mop-prod` | 基于 PRD 生成产品功能设计文档（`docs/product-design.md`），包含信息架构、功能模块设计、用户流程和权限设计 |
-| `/mop-ui` | 基于产品设计文档生成设计系统文档（`docs/design-system.md`）、设计规范预览页（`docs/design-system-preview.html`）和交互式原型（`docs/prototype/`）。支持 Web/移动/桌面多平台适配，可选设计调研（web search） |
+| `/mop-ui` | 基于产品设计文档生成设计规范预览页、设计系统文档（`docs/design-system.md`）、交互式原型（`docs/prototype/`）和原型说明文档。支持 Web/移动/桌面多平台适配，可选设计调研（web search） |
 | `/mop-tech` | 基于产品设计和 UI 原型生成技术设计文档（`docs/tech-design.md`），包含技术选型、系统架构、数据模型、API 设计和故障模式分析。含复杂度嗅觉检查 |
 | `/mop-tasks` | 创建任务分解文档（`docs/tasks.md`），包含阶段划分、依赖关系、优先级、验收标准和并行化策略。任务粒度确保单个 agent session 可完成 |
 | `/mop-dev` | 展示任务进度仪表盘，选择任务开发或修复 test-plan 中的 bug。处理依赖冲突（完成上游 / 延后 / 强制执行），更新任务状态，写入 devlog，设计偏离时触发文档同步 |
@@ -55,6 +55,7 @@ docs/
   design-system.md              # 设计规范
   design-system-preview.html    # 设计规范预览页
   prototype/                    # 交互原型 (HTML/CSS/SVG)
+    README.md                   # 原型说明文档（页面清单、导航关系、交互说明）
   tech-design.md                # 技术设计文档
   tasks.md                      # 任务分解与并行化策略
   devlog.md                     # 开发决策日志

@@ -16,7 +16,7 @@
 2. `docs/product-design.md` — 产品功能设计文档（必须存在）
 3. `docs/tech-design.md` — 技术设计文档（必须存在）
 4. `docs/design-system.md` — 设计规范文档（可选，如存在则读取以了解 UI 规范）
-5. `docs/prototype/` — 设计原型目录（可选，如存在则浏览文件列表以了解已有页面结构）
+5. `docs/prototype/` — 设计原型目录（可选，如存在则读取 `docs/prototype/README.md` 原型说明文档以了解页面结构和交互模式；如原型说明不存在则浏览原型文件）
 
 ## 任务拆解原则
 
@@ -34,7 +34,7 @@
 # {产品名称} — 任务拆解
 
 > 最后更新：{日期}
-> 相关文档：[PRD](prd.md) | [设计规范](design-system.md) | [设计原型](prototype/index.html) | [产品设计](product-design.md) | [技术设计](tech-design.md)
+> 相关文档：[PRD](prd.md) | [设计规范](design-system.md) | [原型说明](prototype/README.md) | [产品设计](product-design.md) | [技术设计](tech-design.md)
 
 ## 状态说明
 
