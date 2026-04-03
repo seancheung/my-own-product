@@ -32,7 +32,7 @@
 ## 前置检查
 
 1. 读取 `docs/prd.md`，如果不存在，提示用户先执行 `/mop-req`
-2. 如果 `docs/product-design.md` 存在，也读取它以获取信息架构和交互设计参考
+2. 读取 `docs/product-design.md`，如果不存在，提示用户先执行 `/mop-prod` 生成产品设计文档
 3. 确认文档内容完整，如有关键信息缺失，先与用户补充
 
 ## 流程
@@ -267,4 +267,4 @@ open docs/prototype/index.html
    - `docs/prototype/` — 设计原型文件列表
 3. 展示设计要点摘要（主色调、字体、关键布局决策等）
 4. 检查是否存在下游文档（`docs/product-design.md`、`docs/tech-design.md`、`docs/tasks.md`），如果存在任何一份，说明这是对已有设计规范/原型的修改而非首次创建，此时使用 AskUserQuestion 询问用户：「设计规范和原型已更新，检测到以下下游文档可能需要同步更新：{列出存在的下游文档}。是否现在执行文档同步？」如果用户同意，按照 `/mop-sync` 的流程执行文档同步。
-5. 提示用户可以执行 `/mop-design` 来生成产品功能设计和技术设计文档
+5. 提示用户可以执行 `/mop-tech` 来生成技术设计文档

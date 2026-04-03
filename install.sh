@@ -8,8 +8,9 @@ BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}/commands"
 COMMANDS=(
   mop-start.md
   mop-req.md
+  mop-prod.md
   mop-ui.md
-  mop-design.md
+  mop-tech.md
   mop-tasks.md
   mop-dev.md
   mop-qa.md
